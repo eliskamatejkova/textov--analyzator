@@ -34,6 +34,8 @@ in modern oceans. Other fish such as paddlefish,
 garpike and stingray are also present.'''
 }
 
+number_of_texts = list(TEXTS.keys())[2]
+
 ##Statistics - Text n.1:
 
 #number of words in the text
@@ -301,7 +303,7 @@ if      user in users and users.get(user) != password:
 
 elif    user in users and users.get(user) == password:
         print(f"Welcome to the app, {user}.")
-        print("We have 3 texts to be analyzed.", sep="\n")
+        print(f"We have {number_of_texts} texts to be analyzed.", sep="\n")
 
 print(separator)
 

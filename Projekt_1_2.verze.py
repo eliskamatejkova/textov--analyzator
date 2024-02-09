@@ -46,7 +46,7 @@ elif    text_number.isdigit() and not int(text_number) in list(range(1, num_text
         print("This text number is not in the menu. Terminating the program.")
         quit()
 
-elif    text_number.isdigit() and int(text_number) in list(range(1,num_texts + 1)):
+elif    text_number.isdigit() and int(text_number) in list(range(1, num_texts + 1)):
             
         text_to_analyse = []
 
